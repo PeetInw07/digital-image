@@ -30,7 +30,7 @@ while True:
     danger_line = int(height * 0.7)
     cv2.line(frame, (0, danger_line), (width, danger_line), (0, 0, 255), 3)
     
-    # -------- 5. Parking Guide Lines --------
+    # -------- 5.Parking Guide Lines --------
     bottom_y = height
     top_y = int(height * 0.6)
 
